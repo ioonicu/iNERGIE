@@ -1,0 +1,29 @@
+.container {
+    padding: 20px;
+}
+
+.pareto-chart {
+    margin-bottom: 40px;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.details h3 {
+    margin-bottom: 20px;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.details ul li strong {
+    color: #333;
+}

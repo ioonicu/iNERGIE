@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 24px;
+}

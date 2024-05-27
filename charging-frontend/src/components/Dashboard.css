@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.app-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0.5rem 1rem;
+}
+
+.app-main {
+    flex: 1;
+    display: flex;
+}
+
+.dashboard {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.map-container {
+    flex: 2;
+}
+
+.sidebar {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    border-left: 1px solid #e5e5e5;
+}
+
+.filters {
+    margin-bottom: 1rem;
+}
+
+.filters select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar ul li strong {
+    display: block;
+}
