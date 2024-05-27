@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Asefthukom@',
+    password: '',
     database: 'charging_spots_db'
 });
 
